@@ -4,16 +4,16 @@ import { useEffect } from 'react';
 import { Loader } from "lucide-react";
 import { Toaster } from "react-hot-toast";
 
-import  Navbar  from './components/Navbar'
-import  HomePage  from './pages/HomePage';
-import  LoginPage  from './pages/LoginPage';
-import SignUpPage from './pages/SignUpPage';
-import  ProfilePage  from './pages/ProfilePage';
-import  SettingsPage  from './pages/SettingsPage';
+import  Navbar  from './components/Navbar.jsx'
+import  HomePage  from './pages/HomePage.jsx';
+import  LoginPage  from './pages/LoginPage.jsx';
+import SignUpPage from './pages/SignUpPage.jsx';
+import  ProfilePage  from './pages/ProfilePage.jsx';
+import  SettingsPage  from './pages/SettingsPage.jsx';
 
-import { axiosInstance } from './lib/axios';
-import { useAuthStore } from './store/useAuthStore';
-import { useThemeStore } from './store/useThemeStore';
+import { axiosInstance } from './lib/axios.js';
+import { useAuthStore } from './store/useAuthStore.js';
+import { useThemeStore } from './store/useThemeStore.js';
 
 
 export const App = () => {
