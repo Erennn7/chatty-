@@ -1,4 +1,4 @@
-# Chat-App
+#chatty- A Chat-App
 
 A small real-time chat application built with a MERN-style stack (Node.js + Express backend, MongoDB, React frontend) using Socket.IO for realtime messaging and Cloudinary for image uploads.
 
